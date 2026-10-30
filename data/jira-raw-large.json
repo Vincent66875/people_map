@@ -1,0 +1,3845 @@
+{
+  "fetchedAt": "2026-10-27T09:00:00.000-04:00",
+  "users": [
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-mia",
+      "accountId": "5f1a-mia",
+      "accountType": "atlassian",
+      "displayName": "Mia Chen",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Design"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-ana",
+      "accountId": "5f1a-ana",
+      "accountType": "atlassian",
+      "displayName": "Ana Ruiz",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Design"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-theo",
+      "accountId": "5f1a-theo",
+      "accountType": "atlassian",
+      "displayName": "Theo Grant",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Design"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-ken",
+      "accountId": "5f1a-ken",
+      "accountType": "atlassian",
+      "displayName": "Ken Watanabe",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Frontend"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-ravi",
+      "accountId": "5f1a-ravi",
+      "accountType": "atlassian",
+      "displayName": "Ravi Patel",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 2,
+        "items": [
+          {
+            "name": "jira-software-users"
+          },
+          {
+            "name": "Frontend"
+          }
+        ]
+      }
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-priya",
+      "accountId": "5f1a-priya",
+      "accountType": "atlassian",
+      "displayName": "Priya Nair",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Frontend"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-leo",
+      "accountId": "5f1a-leo",
+      "accountType": "atlassian",
+      "displayName": "Leo Martin",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 2,
+        "items": [
+          {
+            "name": "jira-software-users"
+          },
+          {
+            "name": "Frontend"
+          }
+        ]
+      }
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-sofia",
+      "accountId": "5f1a-sofia",
+      "accountType": "atlassian",
+      "displayName": "Sofia Alvarez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      }
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-omar",
+      "accountId": "5f1a-omar",
+      "accountType": "atlassian",
+      "displayName": "Omar Haddad",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      }
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-grace",
+      "accountId": "5f1a-grace",
+      "accountType": "atlassian",
+      "displayName": "Grace Kim",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "API"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-ivan",
+      "accountId": "5f1a-ivan",
+      "accountType": "atlassian",
+      "displayName": "Ivan Petrov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "API"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-lena",
+      "accountId": "5f1a-lena",
+      "accountType": "atlassian",
+      "displayName": "Lena Kowalski",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Platform"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-sam",
+      "accountId": "5f1a-sam",
+      "accountType": "atlassian",
+      "displayName": "Sam Osei",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Platform"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-nora",
+      "accountId": "5f1a-nora",
+      "accountType": "atlassian",
+      "displayName": "Nora Berg",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Platform"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-jo",
+      "accountId": "5f1a-jo",
+      "accountType": "atlassian",
+      "displayName": "Jo Okafor",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Product"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=5f1a-dan",
+      "accountId": "5f1a-dan",
+      "accountType": "atlassian",
+      "displayName": "Dan Ross",
+      "active": false,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 1,
+        "items": [
+          {
+            "name": "jira-software-users"
+          }
+        ]
+      },
+      "team": "Platform"
+    },
+    {
+      "self": "https://example.atlassian.net/rest/api/3/user?accountId=557058:auto",
+      "accountId": "557058:auto",
+      "accountType": "app",
+      "displayName": "Automation for Jira",
+      "active": true,
+      "timeZone": "America/New_York",
+      "groups": {
+        "size": 0,
+        "items": []
+      }
+    }
+  ],
+  "searchResponse": {
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 100,
+    "total": 43,
+    "issues": [
+      {
+        "id": "30000",
+        "key": "DES-1",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-1",
+        "fields": {
+          "summary": "Design system refresh",
+          "issuetype": {
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-20T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30001",
+        "key": "WEB-1",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-1",
+        "fields": {
+          "summary": "Frontend rebuild",
+          "issuetype": {
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ken",
+            "displayName": "Ken Watanabe",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-21T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30002",
+        "key": "API-1",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-1",
+        "fields": {
+          "summary": "Payments API v2",
+          "issuetype": {
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-sofia",
+            "displayName": "Sofia Alvarez",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-19T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30003",
+        "key": "OPS-1",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-1",
+        "fields": {
+          "summary": "Infra hardening",
+          "issuetype": {
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-lena",
+            "displayName": "Lena Kowalski",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-18T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30004",
+        "key": "DES-2",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-2",
+        "fields": {
+          "summary": "Design tokens",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-mia",
+            "displayName": "Mia Chen",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10101",
+              "id": "10101",
+              "name": "Tokens"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-10-30",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-25T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40001",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30012",
+                "key": "WEB-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-2",
+                "fields": {
+                  "summary": "Token migration",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "40009",
+              "type": {
+                "id": "10003",
+                "name": "Relates",
+                "inward": "relates to",
+                "outward": "relates to"
+              },
+              "inwardIssue": {
+                "id": "30013",
+                "key": "WEB-3",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-3",
+                "fields": {
+                  "summary": "Checkout page restyle",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30005",
+        "key": "DES-3",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-3",
+        "fields": {
+          "summary": "Color tokens",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ravi",
+            "displayName": "Ravi Patel",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10101",
+              "id": "10101",
+              "name": "Tokens"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-12T10:00:00.000-0400",
+          "resolutiondate": "2026-10-12T10:00:00.000-0400",
+          "customfield_10016": null,
+          "parent": {
+            "key": "DES-2"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30006",
+        "key": "DES-4",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-4",
+        "fields": {
+          "summary": "Spacing tokens",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ana",
+            "displayName": "Ana Ruiz",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10101",
+              "id": "10101",
+              "name": "Tokens"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-26T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "DES-2"
+          },
+          "issuelinks": [
+            {
+              "id": "40002",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30012",
+                "key": "WEB-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-2",
+                "fields": {
+                  "summary": "Token migration",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30007",
+        "key": "DES-5",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-5",
+        "fields": {
+          "summary": "Icon set v2",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-theo",
+            "displayName": "Theo Grant",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10102",
+              "id": "10102",
+              "name": "Icons"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-12",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-09-30T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40003",
+              "type": {
+                "id": "10010",
+                "name": "Dependency",
+                "inward": "is depended on by",
+                "outward": "depends on"
+              },
+              "inwardIssue": {
+                "id": "30015",
+                "key": "WEB-4",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-4",
+                "fields": {
+                  "summary": "Icon component",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 1,
+          "total": 1,
+          "histories": [
+            {
+              "id": "60003",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-07-02T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-mia",
+                  "fromString": "Mia Chen",
+                  "to": "5f1a-theo",
+                  "toString": "Theo Grant"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30008",
+        "key": "DES-6",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-6",
+        "fields": {
+          "summary": "Onboarding illustrations",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-mia",
+            "displayName": "Mia Chen",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10104",
+              "id": "10104",
+              "name": "Brand"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-05T10:00:00.000-0400",
+          "resolutiondate": "2026-10-05T10:00:00.000-0400",
+          "customfield_10016": 2,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40004",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30017",
+                "key": "WEB-7",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-7",
+                "fields": {
+                  "summary": "Onboarding screens",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30009",
+        "key": "DES-7",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-7",
+        "fields": {
+          "summary": "Accessibility audit",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-theo",
+            "displayName": "Theo Grant",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10103",
+              "id": "10103",
+              "name": "Accessibility"
+            }
+          ],
+          "labels": [
+            "checkout",
+            "a11y"
+          ],
+          "duedate": "2026-11-14",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-24T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30010",
+        "key": "DES-8",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-8",
+        "fields": {
+          "summary": "Audit checkout flow",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-priya",
+            "displayName": "Priya Nair",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10103",
+              "id": "10103",
+              "name": "Accessibility"
+            }
+          ],
+          "labels": [
+            "a11y"
+          ],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-25T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "DES-7"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30011",
+        "key": "DES-9",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-9",
+        "fields": {
+          "summary": "Brand moodboard",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ana",
+            "displayName": "Ana Ruiz",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10104",
+              "id": "10104",
+              "name": "Brand"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-21",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-22T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 2,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30012",
+        "key": "WEB-2",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-2",
+        "fields": {
+          "summary": "Token migration",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ken",
+            "displayName": "Ken Watanabe",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10201",
+              "id": "10201",
+              "name": "Design system"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-06",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-22T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40001",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30004",
+                "key": "DES-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/DES-2",
+                "fields": {
+                  "summary": "Design tokens",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "40002",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30006",
+                "key": "DES-4",
+                "self": "https://example.atlassian.net/rest/api/3/issue/DES-4",
+                "fields": {
+                  "summary": "Spacing tokens",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Sub-task",
+                    "subtask": true,
+                    "hierarchyLevel": -1
+                  }
+                }
+              }
+            },
+            {
+              "id": "40005",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30013",
+                "key": "WEB-3",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-3",
+                "fields": {
+                  "summary": "Checkout page restyle",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "40020",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30038",
+                "key": "WEB-12",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-12",
+                "fields": {
+                  "summary": "Design system bootstrap",
+                  "status": {
+                    "name": "Done",
+                    "statusCategory": {
+                      "id": 3,
+                      "key": "done",
+                      "name": "Done",
+                      "colorName": "green"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30013",
+        "key": "WEB-3",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-3",
+        "fields": {
+          "summary": "Checkout page restyle",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ravi",
+            "displayName": "Ravi Patel",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [
+            "checkout"
+          ],
+          "duedate": "2026-11-13",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-20T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 8,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40005",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30012",
+                "key": "WEB-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-2",
+                "fields": {
+                  "summary": "Token migration",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "40009",
+              "type": {
+                "id": "10003",
+                "name": "Relates",
+                "inward": "relates to",
+                "outward": "relates to"
+              },
+              "outwardIssue": {
+                "id": "30004",
+                "key": "DES-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/DES-2",
+                "fields": {
+                  "summary": "Design tokens",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "40011",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30018",
+                "key": "WEB-8",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-8",
+                "fields": {
+                  "summary": "Checkout analytics",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30014",
+        "key": "WEB-5",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-5",
+        "fields": {
+          "summary": "Checkout a11y pass",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-leo",
+            "displayName": "Leo Martin",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-24T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "WEB-3"
+          },
+          "issuelinks": []
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 1,
+          "total": 1,
+          "histories": [
+            {
+              "id": "60008",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-10-10T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-priya",
+                  "fromString": "Priya Nair",
+                  "to": "5f1a-leo",
+                  "toString": "Leo Martin"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30015",
+        "key": "WEB-4",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-4",
+        "fields": {
+          "summary": "Icon component",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-priya",
+            "displayName": "Priya Nair",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10201",
+              "id": "10201",
+              "name": "Design system"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-01T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40003",
+              "type": {
+                "id": "10010",
+                "name": "Dependency",
+                "inward": "is depended on by",
+                "outward": "depends on"
+              },
+              "outwardIssue": {
+                "id": "30007",
+                "key": "DES-5",
+                "self": "https://example.atlassian.net/rest/api/3/issue/DES-5",
+                "fields": {
+                  "summary": "Icon set v2",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30016",
+        "key": "WEB-6",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-6",
+        "fields": {
+          "summary": "Payment form",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ken",
+            "displayName": "Ken Watanabe",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [
+            "checkout"
+          ],
+          "duedate": "2026-11-03",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-26T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40006",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30020",
+                "key": "API-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/API-2",
+                "fields": {
+                  "summary": "Payment intents endpoint",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 1,
+          "total": 1,
+          "histories": [
+            {
+              "id": "60007",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-10-01T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-priya",
+                  "fromString": "Priya Nair",
+                  "to": "5f1a-ken",
+                  "toString": "Ken Watanabe"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30017",
+        "key": "WEB-7",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-7",
+        "fields": {
+          "summary": "Onboarding screens",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ravi",
+            "displayName": "Ravi Patel",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10203",
+              "id": "10203",
+              "name": "Onboarding"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-20",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-24T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40004",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30008",
+                "key": "DES-6",
+                "self": "https://example.atlassian.net/rest/api/3/issue/DES-6",
+                "fields": {
+                  "summary": "Onboarding illustrations",
+                  "status": {
+                    "name": "Done",
+                    "statusCategory": {
+                      "id": 3,
+                      "key": "done",
+                      "name": "Done",
+                      "colorName": "green"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30018",
+        "key": "WEB-8",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-8",
+        "fields": {
+          "summary": "Checkout analytics",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-priya",
+            "displayName": "Priya Nair",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [
+            "checkout"
+          ],
+          "duedate": "2026-11-20",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-23T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40011",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30013",
+                "key": "WEB-3",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-3",
+                "fields": {
+                  "summary": "Checkout page restyle",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30019",
+        "key": "WEB-9",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-9",
+        "fields": {
+          "summary": "Error banners",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-leo",
+            "displayName": "Leo Martin",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-18",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-23T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 2,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40012",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30025",
+                "key": "API-7",
+                "self": "https://example.atlassian.net/rest/api/3/issue/API-7",
+                "fields": {
+                  "summary": "Rate limiter",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30020",
+        "key": "API-2",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-2",
+        "fields": {
+          "summary": "Payment intents endpoint",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-sofia",
+            "displayName": "Sofia Alvarez",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10301",
+              "id": "10301",
+              "name": "Payments"
+            }
+          ],
+          "labels": [
+            "checkout"
+          ],
+          "duedate": "2026-10-20",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-23T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 8,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40006",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30016",
+                "key": "WEB-6",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-6",
+                "fields": {
+                  "summary": "Payment form",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30021",
+        "key": "API-3",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-3",
+        "fields": {
+          "summary": "Idempotency keys",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-omar",
+            "displayName": "Omar Haddad",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10301",
+              "id": "10301",
+              "name": "Payments"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-25T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "API-2"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30022",
+        "key": "API-4",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-4",
+        "fields": {
+          "summary": "Webhook retries",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Blocked",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-omar",
+            "displayName": "Omar Haddad",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10302",
+              "id": "10302",
+              "name": "Webhooks"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-01",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-10T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40007",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30027",
+                "key": "OPS-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/OPS-2",
+                "fields": {
+                  "summary": "Queue cluster upgrade",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Task",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 2,
+          "total": 2,
+          "histories": [
+            {
+              "id": "60001",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-08-10T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-grace",
+                  "fromString": "Grace Kim",
+                  "to": "5f1a-omar",
+                  "toString": "Omar Haddad"
+                }
+              ]
+            },
+            {
+              "id": "60000",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-05-04T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": null,
+                  "fromString": null,
+                  "to": "5f1a-grace",
+                  "toString": "Grace Kim"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30023",
+        "key": "API-5",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-5",
+        "fields": {
+          "summary": "Queue client config",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-omar",
+            "displayName": "Omar Haddad",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10302",
+              "id": "10302",
+              "name": "Webhooks"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-15T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "API-4"
+          },
+          "issuelinks": [
+            {
+              "id": "40008",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30027",
+                "key": "OPS-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/OPS-2",
+                "fields": {
+                  "summary": "Queue cluster upgrade",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Task",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30024",
+        "key": "API-6",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-6",
+        "fields": {
+          "summary": "Refund endpoint",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-sofia",
+            "displayName": "Sofia Alvarez",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10301",
+              "id": "10301",
+              "name": "Payments"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-20",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-21T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40010",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30029",
+                "key": "OPS-3",
+                "self": "https://example.atlassian.net/rest/api/3/issue/OPS-3",
+                "fields": {
+                  "summary": "TLS cert rotation",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Task",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30025",
+        "key": "API-7",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-7",
+        "fields": {
+          "summary": "Rate limiter",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-grace",
+            "displayName": "Grace Kim",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10303",
+              "id": "10303",
+              "name": "Rate limiting"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-05",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-25T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40012",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30019",
+                "key": "WEB-9",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-9",
+                "fields": {
+                  "summary": "Error banners",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 2,
+          "total": 2,
+          "histories": [
+            {
+              "id": "60006",
+              "author": {
+                "accountId": "5f1a-grace",
+                "displayName": "Grace Kim",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-09-03T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "status",
+                  "fieldtype": "jira",
+                  "fieldId": "status",
+                  "from": "10000",
+                  "fromString": "To Do",
+                  "to": "3",
+                  "toString": "In Progress"
+                }
+              ]
+            },
+            {
+              "id": "60005",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-09-01T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": null,
+                  "fromString": null,
+                  "to": "5f1a-grace",
+                  "toString": "Grace Kim"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30026",
+        "key": "API-8",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-8",
+        "fields": {
+          "summary": "Payment metrics",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ivan",
+            "displayName": "Ivan Petrov",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10301",
+              "id": "10301",
+              "name": "Payments"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-25",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-22T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30027",
+        "key": "OPS-2",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-2",
+        "fields": {
+          "summary": "Queue cluster upgrade",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-lena",
+            "displayName": "Lena Kowalski",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10401",
+              "id": "10401",
+              "name": "Queues"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-10-29",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-26T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 8,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40007",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30022",
+                "key": "API-4",
+                "self": "https://example.atlassian.net/rest/api/3/issue/API-4",
+                "fields": {
+                  "summary": "Webhook retries",
+                  "status": {
+                    "name": "Blocked",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "40008",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30023",
+                "key": "API-5",
+                "self": "https://example.atlassian.net/rest/api/3/issue/API-5",
+                "fields": {
+                  "summary": "Queue client config",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Sub-task",
+                    "subtask": true,
+                    "hierarchyLevel": -1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 1,
+          "total": 1,
+          "histories": [
+            {
+              "id": "60004",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-06-15T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-dan",
+                  "fromString": "Dan Ross",
+                  "to": "5f1a-lena",
+                  "toString": "Lena Kowalski"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30028",
+        "key": "OPS-6",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-6",
+        "fields": {
+          "summary": "Broker config",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-sam",
+            "displayName": "Sam Osei",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10401",
+              "id": "10401",
+              "name": "Queues"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-26T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "OPS-2"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30029",
+        "key": "OPS-3",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-3",
+        "fields": {
+          "summary": "TLS cert rotation",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": null,
+          "reporter": {
+            "accountId": "557058:auto",
+            "displayName": "Automation for Jira",
+            "active": true,
+            "accountType": "app"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10402",
+              "id": "10402",
+              "name": "Security"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-10-25",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-19T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": null,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40010",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30024",
+                "key": "API-6",
+                "self": "https://example.atlassian.net/rest/api/3/issue/API-6",
+                "fields": {
+                  "summary": "Refund endpoint",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30030",
+        "key": "OPS-4",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-4",
+        "fields": {
+          "summary": "Staging DB migration",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-dan",
+            "displayName": "Dan Ross",
+            "active": false,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10403",
+              "id": "10403",
+              "name": "Databases"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-09-01T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30031",
+        "key": "OPS-5",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-5",
+        "fields": {
+          "summary": "Observability dashboards",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "In Progress",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-nora",
+            "displayName": "Nora Berg",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10404",
+              "id": "10404",
+              "name": "Observability"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-08",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-24T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 5,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40013",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30032",
+                "key": "OPS-7",
+                "self": "https://example.atlassian.net/rest/api/3/issue/OPS-7",
+                "fields": {
+                  "summary": "Alert routing",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Task",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 1,
+          "total": 1,
+          "histories": [
+            {
+              "id": "60002",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-09-20T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-sam",
+                  "fromString": "Sam Osei",
+                  "to": "5f1a-nora",
+                  "toString": "Nora Berg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30032",
+        "key": "OPS-7",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-7",
+        "fields": {
+          "summary": "Alert routing",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "To Do",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-sam",
+            "displayName": "Sam Osei",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10404",
+              "id": "10404",
+              "name": "Observability"
+            }
+          ],
+          "labels": [],
+          "duedate": "2026-11-15",
+          "created": "2026-09-15T10:00:00.000-0400",
+          "updated": "2026-10-22T10:00:00.000-0400",
+          "resolutiondate": null,
+          "customfield_10016": 3,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40013",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "inwardIssue": {
+                "id": "30031",
+                "key": "OPS-5",
+                "self": "https://example.atlassian.net/rest/api/3/issue/OPS-5",
+                "fields": {
+                  "summary": "Observability dashboards",
+                  "status": {
+                    "name": "In Progress",
+                    "statusCategory": {
+                      "id": 4,
+                      "key": "indeterminate",
+                      "name": "In Progress",
+                      "colorName": "yellow"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Task",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 2,
+          "total": 2,
+          "histories": [
+            {
+              "id": "60011",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-10-08T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-nora",
+                  "fromString": "Nora Berg",
+                  "to": "5f1a-sam",
+                  "toString": "Sam Osei"
+                }
+              ]
+            },
+            {
+              "id": "60010",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-10-05T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-sam",
+                  "fromString": "Sam Osei",
+                  "to": "5f1a-nora",
+                  "toString": "Nora Berg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30033",
+        "key": "DES-10",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-10",
+        "fields": {
+          "summary": "Token naming spec",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-theo",
+            "displayName": "Theo Grant",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10101",
+              "id": "10101",
+              "name": "Tokens"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-02-20T10:00:00.000-0400",
+          "updated": "2026-03-10T10:00:00.000-0400",
+          "resolutiondate": "2026-03-10T10:00:00.000-0400",
+          "customfield_10016": 2,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30034",
+        "key": "DES-11",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-11",
+        "fields": {
+          "summary": "Icon audit",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ana",
+            "displayName": "Ana Ruiz",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10102",
+              "id": "10102",
+              "name": "Icons"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-05-01T10:00:00.000-0400",
+          "updated": "2026-05-20T10:00:00.000-0400",
+          "resolutiondate": "2026-05-20T10:00:00.000-0400",
+          "customfield_10016": 2,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30035",
+        "key": "DES-12",
+        "self": "https://example.atlassian.net/rest/api/3/issue/DES-12",
+        "fields": {
+          "summary": "Old brand guidelines",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-mia",
+            "displayName": "Mia Chen",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "DES",
+            "name": "Design"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10104",
+              "id": "10104",
+              "name": "Brand"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2025-06-20T10:00:00.000-0400",
+          "updated": "2025-07-15T10:00:00.000-0400",
+          "resolutiondate": "2025-07-15T10:00:00.000-0400",
+          "customfield_10016": 3,
+          "parent": {
+            "key": "DES-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30036",
+        "key": "WEB-10",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-10",
+        "fields": {
+          "summary": "Checkout v1",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ravi",
+            "displayName": "Ravi Patel",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [
+            "checkout"
+          ],
+          "duedate": null,
+          "created": "2026-01-05T10:00:00.000-0400",
+          "updated": "2026-02-14T10:00:00.000-0400",
+          "resolutiondate": "2026-02-14T10:00:00.000-0400",
+          "customfield_10016": 8,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": []
+        },
+        "changelog": {
+          "startAt": 0,
+          "maxResults": 1,
+          "total": 1,
+          "histories": [
+            {
+              "id": "60009",
+              "author": {
+                "accountId": "5f1a-jo",
+                "displayName": "Jo Okafor",
+                "active": true,
+                "accountType": "atlassian"
+              },
+              "created": "2026-01-12T10:00:00.000-0400",
+              "items": [
+                {
+                  "field": "assignee",
+                  "fieldtype": "jira",
+                  "fieldId": "assignee",
+                  "from": "5f1a-ken",
+                  "fromString": "Ken Watanabe",
+                  "to": "5f1a-ravi",
+                  "toString": "Ravi Patel"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "30037",
+        "key": "WEB-11",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-11",
+        "fields": {
+          "summary": "Checkout v1 tests",
+          "issuetype": {
+            "name": "Sub-task",
+            "subtask": true,
+            "hierarchyLevel": -1
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-ken",
+            "displayName": "Ken Watanabe",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10202",
+              "id": "10202",
+              "name": "Checkout"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-01-20T10:00:00.000-0400",
+          "updated": "2026-02-10T10:00:00.000-0400",
+          "resolutiondate": "2026-02-10T10:00:00.000-0400",
+          "customfield_10016": null,
+          "parent": {
+            "key": "WEB-10"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30038",
+        "key": "WEB-12",
+        "self": "https://example.atlassian.net/rest/api/3/issue/WEB-12",
+        "fields": {
+          "summary": "Design system bootstrap",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-priya",
+            "displayName": "Priya Nair",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "WEB",
+            "name": "Web App"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10201",
+              "id": "10201",
+              "name": "Design system"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-03-01T10:00:00.000-0400",
+          "updated": "2026-04-02T10:00:00.000-0400",
+          "resolutiondate": "2026-04-02T10:00:00.000-0400",
+          "customfield_10016": 5,
+          "parent": {
+            "key": "WEB-1"
+          },
+          "issuelinks": [
+            {
+              "id": "40020",
+              "type": {
+                "id": "10000",
+                "name": "Blocks",
+                "inward": "is blocked by",
+                "outward": "blocks"
+              },
+              "outwardIssue": {
+                "id": "30012",
+                "key": "WEB-2",
+                "self": "https://example.atlassian.net/rest/api/3/issue/WEB-2",
+                "fields": {
+                  "summary": "Token migration",
+                  "status": {
+                    "name": "To Do",
+                    "statusCategory": {
+                      "id": 2,
+                      "key": "new",
+                      "name": "To Do",
+                      "colorName": "blue-gray"
+                    }
+                  },
+                  "issuetype": {
+                    "name": "Story",
+                    "subtask": false,
+                    "hierarchyLevel": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "30039",
+        "key": "API-9",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-9",
+        "fields": {
+          "summary": "Payments v1 webhooks",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-sofia",
+            "displayName": "Sofia Alvarez",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10302",
+              "id": "10302",
+              "name": "Webhooks"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2025-12-01T10:00:00.000-0400",
+          "updated": "2026-01-20T10:00:00.000-0400",
+          "resolutiondate": "2026-01-20T10:00:00.000-0400",
+          "customfield_10016": 5,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30040",
+        "key": "API-10",
+        "self": "https://example.atlassian.net/rest/api/3/issue/API-10",
+        "fields": {
+          "summary": "Refund prototype",
+          "issuetype": {
+            "name": "Story",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-grace",
+            "displayName": "Grace Kim",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "API",
+            "name": "Payments API"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10301",
+              "id": "10301",
+              "name": "Payments"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2026-05-10T10:00:00.000-0400",
+          "updated": "2026-06-01T10:00:00.000-0400",
+          "resolutiondate": "2026-06-01T10:00:00.000-0400",
+          "customfield_10016": 3,
+          "parent": {
+            "key": "API-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30041",
+        "key": "OPS-8",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-8",
+        "fields": {
+          "summary": "Queue cluster v1",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-nora",
+            "displayName": "Nora Berg",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10401",
+              "id": "10401",
+              "name": "Queues"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2025-11-01T10:00:00.000-0400",
+          "updated": "2025-12-05T10:00:00.000-0400",
+          "resolutiondate": "2025-12-05T10:00:00.000-0400",
+          "customfield_10016": 5,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": []
+        }
+      },
+      {
+        "id": "30042",
+        "key": "OPS-9",
+        "self": "https://example.atlassian.net/rest/api/3/issue/OPS-9",
+        "fields": {
+          "summary": "Legacy cron jobs",
+          "issuetype": {
+            "name": "Task",
+            "subtask": false,
+            "hierarchyLevel": 0
+          },
+          "status": {
+            "name": "Done",
+            "statusCategory": {
+              "id": 3,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          },
+          "assignee": {
+            "accountId": "5f1a-lena",
+            "displayName": "Lena Kowalski",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "reporter": {
+            "accountId": "5f1a-jo",
+            "displayName": "Jo Okafor",
+            "active": true,
+            "accountType": "atlassian"
+          },
+          "project": {
+            "key": "OPS",
+            "name": "Platform Ops"
+          },
+          "components": [
+            {
+              "self": "https://example.atlassian.net/rest/api/3/component/10401",
+              "id": "10401",
+              "name": "Queues"
+            }
+          ],
+          "labels": [],
+          "duedate": null,
+          "created": "2025-08-01T10:00:00.000-0400",
+          "updated": "2025-09-01T10:00:00.000-0400",
+          "resolutiondate": "2025-09-01T10:00:00.000-0400",
+          "customfield_10016": 3,
+          "parent": {
+            "key": "OPS-1"
+          },
+          "issuelinks": []
+        }
+      }
+    ]
+  },
+  "site": {
+    "projectName": "Payments Launch"
+  }
+}
