@@ -23,33 +23,12 @@
 .jtm *, .jtm *::before, .jtm *::after { box-sizing: border-box; }
 .jtm button { font: inherit; }
 
-.jtm .jtm-topbar { display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 16px; border-bottom: 1px solid var(--jtm-border); }
-.jtm .jtm-logo { color: var(--jtm-blue); font-size: 18px; }
-.jtm .jtm-product { font-weight: 600; margin-right: 16px; }
-.jtm .jtm-topbar nav { display: flex; gap: 18px; color: var(--jtm-subtle); font-weight: 500; }
-
-.jtm .jtm-body { display: flex; min-height: calc(100vh - 48px); }
-.jtm .jtm-sidebar { width: 220px; flex: none; border-right: 1px solid var(--jtm-border); background: var(--jtm-sunken); padding: 16px 8px; }
-.jtm .jtm-project { display: flex; gap: 10px; align-items: center; padding: 0 8px 16px; }
-.jtm .jtm-project small { display: block; color: var(--jtm-muted); font-size: 12px; }
-.jtm .jtm-project-icon { width: 32px; height: 32px; border-radius: 6px; background: #8270db; color: #fff; font-weight: 700; font-size: 12px; display: grid; place-items: center; }
-.jtm .jtm-sidebar nav { display: flex; flex-direction: column; gap: 2px; }
-.jtm .jtm-sidebar a { padding: 6px 10px; border-radius: 4px; color: var(--jtm-subtle); text-decoration: none; cursor: default; }
-.jtm .jtm-sidebar a.jtm-active { background: var(--jtm-blue-bg); color: var(--jtm-blue); font-weight: 600; box-shadow: inset 2px 0 0 var(--jtm-blue); }
-
 .jtm .jtm-main { flex: 1; min-width: 0; padding: 20px 28px 40px; }
-.jtm .jtm-crumbs { margin: 0; color: var(--jtm-muted); font-size: 13px; }
 .jtm h1 { font-size: 24px; font-weight: 600; margin: 4px 0 8px; }
 .jtm h3 { font-size: 14px; margin: 0; }
-.jtm .jtm-provenance { color: var(--jtm-subtle); margin: 0 0 16px; }
 .jtm .jtm-num { background: none; border: 0; padding: 0; color: var(--jtm-blue); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 .jtm .jtm-num:focus-visible, .jtm .jtm-close:focus-visible { outline: 2px solid var(--jtm-blue); outline-offset: 2px; }
 .jtm .jtm-muted { color: var(--jtm-muted); }
-
-.jtm .jtm-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
-@media (max-width: 1760px) { .jtm .jtm-layout { grid-template-columns: 1fr; } }
-.jtm .jtm-side { display: flex; flex-direction: column; gap: 12px; }
-.jtm .jtm-hint { margin: 8px 0; }
 .jtm .jtm-panel { border: 1px solid var(--jtm-border); border-radius: 8px; padding: 12px 14px; background: var(--jtm-bg); }
 .jtm .jtm-panel header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
 .jtm .jtm-panel p { margin: 4px 0; }
@@ -66,7 +45,6 @@
 /* ---------------- graph ---------------- */
 .jtm .jtm-graph { border: 1px solid var(--jtm-border); border-radius: 8px; padding: 6px; overflow-x: auto; }
 .jtm .jtm-graph > svg { display: block; }
-.jtm .jtm-legend svg { overflow: visible; }
 .jtm .jtm-col rect { fill: var(--jtm-sunken); }
 .jtm .jtm-col-title { font-size: 13px; font-weight: 600; fill: var(--jtm-subtle); letter-spacing: .02em; }
 .jtm .jtm-edge { fill: none; stroke: #8590a2; stroke-linecap: round; }
@@ -98,12 +76,6 @@
 .jtm .jtm-node-score { font-size: 11px; fill: var(--jtm-muted); }
 .jtm .jtm-faded { opacity: .18; }
 .jtm .jtm-edge.jtm-faded { opacity: .35; stroke: #dcdfe4; }
-
-.jtm .jtm-legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 8px 6px 2px; color: var(--jtm-subtle); font-size: 12px; align-items: center; }
-.jtm .jtm-legend span { display: inline-flex; align-items: center; gap: 6px; }
-.jtm .jtm-dot { display: inline-grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; font-style: normal; font-size: 10px; font-weight: 700; border: 1.5px solid; }
-.jtm .jtm-dot--green { background: var(--jtm-green-bg); color: var(--jtm-green); }
-.jtm .jtm-dot--amber { background: var(--jtm-amber-bg); color: var(--jtm-amber); }
 .jtm .jtm-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: -1px; padding: 0; border: 0; }
 
 .jtm .jtm-edge--broken { stroke-dasharray: 6 4; }
@@ -120,7 +92,6 @@
 /* ---------------- stage 5/6 ---------------- */
 .jtm h2 { font-size: 16px; font-weight: 600; margin: 0 0 6px; }
 .jtm h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--jtm-muted); margin: 10px 0 4px; }
-.jtm .jtm-col-main { min-width: 0; display: flex; flex-direction: column; gap: 16px; }
 .jtm .jtm-btn { border: 1px solid var(--jtm-border); background: var(--jtm-bg); color: var(--jtm-text); border-radius: 4px; padding: 5px 10px; cursor: pointer; font-weight: 500; }
 .jtm .jtm-btn:hover { background: var(--jtm-sunken); }
 .jtm .jtm-btn--small { padding: 2px 8px; font-size: 12px; }
@@ -133,8 +104,6 @@
 .jtm .jtm-dq summary { cursor: pointer; font-weight: 600; color: var(--jtm-subtle); }
 .jtm .jtm-dq ul { margin: 6px 0 4px; padding-left: 18px; color: var(--jtm-subtle); font-size: 13px; }
 .jtm .jtm-dq li { margin: 3px 0; }
-
-.jtm .jtm-toolbar { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; margin: 0 0 10px; }
 .jtm .jtm-zoom { display: inline-flex; align-items: center; gap: 0; }
 .jtm .jtm-zoom-label { color: var(--jtm-subtle); font-size: 13px; margin-right: 8px; }
 .jtm .jtm-seg { border: 1px solid var(--jtm-border); background: var(--jtm-bg); padding: 4px 10px; cursor: pointer; color: var(--jtm-subtle); font-size: 13px; margin-left: -1px; }
@@ -144,7 +113,6 @@
 .jtm .jtm-search { display: flex; gap: 6px; align-items: center; }
 .jtm .jtm-search label { font-size: 13px; color: var(--jtm-subtle); }
 .jtm .jtm-search input { width: 330px; padding: 5px 8px; border: 1px solid #8590a2; border-radius: 4px; font: inherit; }
-.jtm .jtm-team-sentences { margin: 0 0 10px; padding-left: 18px; color: var(--jtm-subtle); }
 
 .jtm .jtm-formula { font-size: 13px; color: var(--jtm-subtle); background: var(--jtm-sunken); border-radius: 6px; padding: 6px 10px; margin-bottom: 8px; }
 .jtm .jtm-formula p { margin: 0; }
@@ -182,14 +150,48 @@
 
 /* Focused project-page presentation */
 .jtm .jtm-main { max-width: none; width: 100%; padding: 24px; box-sizing: border-box; }
-.jtm .jtm-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
-.jtm .jtm-heading h1 { margin: 0; }
-.jtm .jtm-intro { color: var(--jtm-subtle); margin: 6px 0 18px; }
-.jtm .jtm-overview { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 12px; }
-.jtm .jtm-overview > div { border: 1px solid var(--jtm-border); border-radius: 8px; padding: 10px 14px; color: var(--jtm-subtle); }
-.jtm .jtm-overview strong { color: var(--jtm-text); font-size: 18px; }
-.jtm .jtm-disclosure, .jtm .jtm-legend-details { margin: 10px 0 16px; }
-.jtm .jtm-disclosure > summary, .jtm .jtm-legend-details > summary { cursor: pointer; font-weight: 600; color: var(--jtm-blue); padding: 8px 0; }
-.jtm .jtm-sim-help { padding: 10px 14px; background: #e9f2ff; border-radius: 8px; }
 .jtm .jtm-main:not(.jtm-simulation) .jtm-absence-control { display: none; }
-@media (max-width: 700px) { .jtm .jtm-main { padding: 16px; } .jtm .jtm-overview > div { flex: 1 1 120px; } }
+@media (max-width: 700px) { .jtm .jtm-main { padding: 16px; } }
+
+/* Embedded project page: adapt to the space Jira gives the app. */
+.jtm { min-height: 0; container-type: inline-size; }
+.jtm .jtm-main { padding: 20px 24px 32px; }
+@container (max-width: 600px) {
+  .jtm .jtm-main { padding: 16px; }
+}
+
+/* Board-first project view */
+.jtm .jtm-board { padding: 16px 24px 24px; }
+.jtm .jtm-board-header { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px 20px; margin-bottom: 16px; }
+.jtm .jtm-board-header h1 { margin: 0; }
+.jtm .jtm-board-header p { color: var(--jtm-subtle); margin: 4px 0 0; }
+.jtm .jtm-board-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.jtm .jtm-map-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 0 0 12px; }
+.jtm .jtm-simulation-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 8px 10px; margin-bottom: 12px; background: var(--jtm-blue-bg); border-radius: 4px; }
+.jtm .jtm-graph { width: 100%; min-width: 0; }
+.jtm .jtm-dialog { width: min(560px, calc(100% - 32px)); max-height: min(80vh, 850px); margin: auto; padding: 0; border: 1px solid var(--jtm-border); border-radius: 8px; color: var(--jtm-text); background: var(--jtm-bg); box-shadow: 0 8px 32px rgba(9,30,66,.24); }
+.jtm .jtm-dialog::backdrop { background: rgba(9,30,66,.45); }
+.jtm .jtm-dialog-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--jtm-border); }
+.jtm .jtm-dialog-header > div { display: flex; align-items: center; gap: 12px; }
+.jtm .jtm-dialog-header h2 { margin: 0; }
+.jtm .jtm-dialog-body { padding: 16px 20px 20px; overflow-wrap: anywhere; }
+.jtm .jtm-dialog-body .jtm-search { display: flex; flex-wrap: wrap; }
+.jtm .jtm-dialog-body .jtm-search label { flex-basis: 100%; font-weight: 600; }
+.jtm .jtm-dialog-body .jtm-search input { width: auto; min-width: 0; flex: 1 1 180px; }
+.jtm .jtm-key-list { padding-left: 20px; line-height: 1.6; }
+.jtm .jtm-key-list li { margin: 6px 0; }
+@container (max-width: 600px) { .jtm .jtm-board { padding: 12px 16px; } .jtm .jtm-board-actions { width: 100%; } }
+
+/* Detail panel: docked beside the map on wide frames, modal overlay on narrow ones */
+.jtm .jtm-stage { display: block; }
+.jtm .jtm-stage--drawer { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 360px); gap: 16px; align-items: start; }
+.jtm .jtm-drawer { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow: auto; border: 1px solid var(--jtm-border); border-radius: 8px; background: var(--jtm-bg); box-shadow: 0 4px 16px rgba(9,30,66,.12); }
+.jtm .jtm-drawer .jtm-dialog-header { position: sticky; top: 0; background: var(--jtm-bg); z-index: 1; }
+.jtm .jtm-dialog-header h2 { font-size: 16px; }
+.jtm .jtm-dialog-header h2:focus { outline: none; }
+.jtm .jtm-dialog-header h2:focus-visible { outline: 2px solid var(--jtm-blue); outline-offset: 2px; }
+.jtm .jtm-panel--bare { border: 0; padding: 0; border-radius: 0; }
+.jtm .jtm-dialog-body .jtm-ranking { border: 0; padding: 0; }
+.jtm .jtm-dialog-body .jtm-reasons { padding-left: 0; }
+.jtm .jtm-dialog-body .jtm-row-head { flex-wrap: wrap; }
+.jtm .jtm-graph > svg { display: block; }

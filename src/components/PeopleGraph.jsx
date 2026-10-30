@@ -1,13 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { neighbour } from '../graph/layout.js';
 
+// The map scales down with the frame, but never below this, so text stays readable; then it scrolls.
+const MIN_SCALE = 0.85;
 const KEY_DIR = { ArrowLeft: 'left', ArrowRight: 'right', ArrowUp: 'up', ArrowDown: 'down' };
 
 /**
  * Hand-rolled SVG people graph. People are nodes; tickets are edge labels.
  * Arrow = "waits on", from waiter to blocker.
  */
-export default function PeopleGraph({ model, data, selectedId = null, absent = new Set(), onSelect, onBadge }) {
+export default function PeopleGraph({ model, data, selectedId = null, absent = new Set(), onSelect, onBadge, onBackground }) {
   const { layout, risk, baseline, labels, badges, edgeById, sentences, rings, knowledge } = data;
   const nodeById = useMemo(() => new Map(layout.nodes.map((n) => [n.id, n])), [layout]);
   const [activeId, setActiveId] = useState(() => layout.nodes[0]?.id ?? null);
@@ -67,9 +69,11 @@ export default function PeopleGraph({ model, data, selectedId = null, absent = n
     <div className="jtm-graph">
       <svg
         viewBox={`0 0 ${layout.width} ${layout.height}`}
-        width={layout.width}
-        height={layout.height}
-        style={{ maxWidth: 'none' }}
+        style={{ width: '100%', height: 'auto', maxWidth: layout.width, minWidth: Math.round(layout.width * MIN_SCALE) }}
+        onClick={(ev) => {
+          // click on empty map space (not a person or badge) closes the docked panel
+          if (onBackground && !ev.target.closest('[data-node], [data-badge]')) onBackground();
+        }}
         role="group"
         aria-label="People dependency map. Arrows point from the person who waits to the person they wait on. Use arrow keys to move between people, Enter to select."
         aria-describedby="jtm-sr-edges"
@@ -219,16 +223,7 @@ export default function PeopleGraph({ model, data, selectedId = null, absent = n
         ))}
       </ul>
 
-      <details className="jtm-legend-details"><summary>Map key</summary><div className="jtm-legend">
-        <span><svg width="34" height="10"><path d="M2,5 H28" className="jtm-edge" markerEnd="url(#jtm-arrow-plain)" /></svg> waits on</span>
-        <span><svg width="34" height="10"><path d="M2,5 H28" className="jtm-edge jtm-edge--red" /></svg> blocker Blocked or overdue</span>
-        <span><i className="jtm-dot jtm-dot--green">✓</i> someone else has worked on the blocking task</span>
-        <span><i className="jtm-dot jtm-dot--amber">1</i> only one person has</span>
-        <span>Node size = coverage risk</span>
-        {absent.size > 0 && <span><i className="jtm-ring-key jtm-ring-key--waiting" /> left waiting</span>}
-        {absent.size > 0 && <span><i className="jtm-ring-key jtm-ring-key--context" /> has worked on stalled work</span>}
-        {selectedId && <span><svg width="34" height="10"><path d="M2,5 H32" className="jtm-knowledge" /></svg> has worked on {model.nameOf(selectedId)}'s work</span>}
-      </div></details>
+
     </div>
   );
 }

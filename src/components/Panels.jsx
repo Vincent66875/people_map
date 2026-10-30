@@ -15,8 +15,14 @@ export function Keys({ keys, title, onOpen, children, className = 'jtm-num' }) {
   );
 }
 
-function Panel({ title, testid, onClose, children, level = 3 }) {
+function Panel({ title, testid, onClose, children, level = 3, bare = false }) {
   const H = `h${level}`;
+  if (bare)
+    return (
+      <section className="jtm-panel jtm-panel--bare" aria-label={title} data-testid={testid}>
+        {children}
+      </section>
+    );
   return (
     <section className="jtm-panel" aria-label={title} data-testid={testid}>
       <header>
@@ -29,9 +35,9 @@ function Panel({ title, testid, onClose, children, level = 3 }) {
 }
 
 // ------------------------------------------------------------------ tickets
-export function TicketList({ model, title, keys, onClose }) {
+export function TicketList({ model, title, keys, onClose, bare }) {
   return (
-    <Panel title={title} testid="ticket-list" onClose={onClose}>
+    <Panel title={title} testid="ticket-list" onClose={onClose} bare={bare}>
       <ul className="jtm-tickets">
         {keys.map((k) => {
           const i = model.issueByKey.get(k);
@@ -84,15 +90,15 @@ export function SearchBox({ model, onSearch, defaultValue = '' }) {
   );
 }
 
-export function WorkedOnPanel({ result, onClose, onOpen }) {
+export function WorkedOnPanel({ result, onClose, onOpen, bare }) {
   if (!result.query)
     return (
-      <Panel title="Who has worked on this?" testid="worked-on" onClose={onClose}>
+      <Panel title="Who has worked on this?" testid="worked-on" onClose={onClose} bare={bare}>
         <p>No ticket or area matches “{result.input}”. Try a key like DES-2, or epic:, component:, label:.</p>
       </Panel>
     );
   return (
-    <Panel title={`Who has worked on ${result.label}?`} testid="worked-on" onClose={onClose}>
+    <Panel title={`Who has worked on ${result.label}?`} testid="worked-on" onClose={onClose} bare={bare}>
       <p className="jtm-muted">
         People who have worked on this or related work in the last 12 months, closest first:{' '}
         <Keys keys={result.keys} title={`Related work for ${result.label}`} onOpen={onOpen}>{plural(result.keys.length, 'related ticket')}</Keys>.
@@ -198,7 +204,7 @@ export function Ranking({ rows, absent, selectedId, onSelect, onToggleOut, onOpe
 }
 
 // ------------------------------------------------------------------ person detail
-export function PersonDetail({ model, r, out, knowledge, near, onClose, onToggleOut, onOpen, onSearch }) {
+export function PersonDetail({ model, r, out, knowledge, near, onClose, onToggleOut, onOpen, onSearch, bare }) {
   const sec = (title, items, render, testid) =>
     items.length > 0 && (
       <div className="jtm-sec" data-testid={testid}>
@@ -208,7 +214,7 @@ export function PersonDetail({ model, r, out, knowledge, near, onClose, onToggle
     );
   const issue = (k) => model.issueByKey.get(k);
   return (
-    <Panel title={`${r.name}${r.team ? ` · ${r.team}` : ''}`} testid="person-detail" onClose={onClose}>
+    <Panel title={`${r.name}${r.team ? ` · ${r.team}` : ''}`} testid="person-detail" onClose={onClose} bare={bare}>
       <div className="jtm-detail-head">
         <span>
           Coverage risk{' '}
@@ -282,15 +288,21 @@ export function PersonDetail({ model, r, out, knowledge, near, onClose, onToggle
 }
 
 // ------------------------------------------------------------------ absence
-export function AbsencePanel({ model, impact, onToggleOut, onClear, onOpen }) {
+export function AbsencePanel({ model, impact, onToggleOut, onClear, onOpen, bare }) {
   return (
-    <Panel title="Marked out" testid="absence" onClose={onClear}>
+    <Panel title="Marked out" testid="absence" onClose={onClear} bare={bare}>
       <div className="jtm-chips">
+        {bare && <span className="jtm-muted">Marked out:</span>}
         {impact.absent.map((id) => (
           <button key={id} type="button" className="jtm-chip" onClick={() => onToggleOut(id)} aria-label={`Mark ${model.nameOf(id)} back in`}>
             {model.nameOf(id)} ×
           </button>
         ))}
+        {bare && (
+          <button type="button" className="jtm-btn jtm-btn--small" onClick={onClear}>
+            Clear all
+          </button>
+        )}
       </div>
       <p>
         Work that stalls:{' '}
